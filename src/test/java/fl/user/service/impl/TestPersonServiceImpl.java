@@ -41,7 +41,7 @@ public class TestPersonServiceImpl {
 
         Person person = new Person();
         person.setAccount("klg");
-        person.setPassword("9718a3e3c33c6ab854775890d1b26947");
+        person.setPassword("klg");
         person.setDateCreated(new Date());
         person.setEmail("klg0705@gmail.com");
         person.setIpCreated("127.0.0.1");
@@ -54,7 +54,7 @@ public class TestPersonServiceImpl {
 
         Person person2 = new Person();
         person2.setAccount("admin");
-        person2.setPassword("21232f297a57a5a743894a0e4a801fc3");
+        person2.setPassword("admin");
         personService.create(person2);
 
         assertEquals(2, personService.count());
